@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carbon Footprint Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌍 Carbon Footprint Calculator</h1>
+      <p class="subtitle">Estimate your annual CO₂ emissions and discover ways to reduce your impact.</p>
+    </header>
+
+    <form id="carbonForm">
+      <div class="input-group">
+        <label>🚗 Kilometers driven per week</label>
+        <input type="number" id="carKm" min="0" placeholder="e.g. 150" />
+      </div>
+      <div class="input-group">
+        <label>✈️ Flights per year</label>
+        <input type="number" id="flights" min="0" placeholder="e.g. 3" />
+      </div>
+      <div class="input-group">
+        <label>🍖 Meat-based meals per week</label>
+        <input type="number" id="meals" min="0" placeholder="e.g. 10" />
+      </div>
+      <div class="input-group">
+        <label>💡 Electricity use per month (kWh)</label>
+        <input type="number" id="electricity" min="0" placeholder="e.g. 300" />
+      </div>
+      <button type="submit">Calculate My Footprint</button>
+    </form>
+
+    <div id="results"></div>
+    <canvas id="co2Chart" width="400" height="400"></canvas>
+  </div>
+
+  <footer>
+    <p>Made with 💚 to raise awareness about sustainability. Your data stays in your browser.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
