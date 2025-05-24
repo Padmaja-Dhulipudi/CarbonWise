@@ -20,31 +20,6 @@
 - **Chart.js** – Data visualization library
 
 
-
-## 🚀 Getting Started
-
-1. **Clone the repository**
- 
-   git clone https://github.com/Padmaja-Dhulipudi/carbon-wise.git
-  
-
-2. **Open the project**
-   - Navigate to the project folder
-   - Open `index.html` in your web browser
-
-   > No build steps or server setup needed.
-
-
-
-## 📂 Project Structure
-
-carbon-wise/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-
-
 ## 🎯 Use Case
 
 Ideal for:
